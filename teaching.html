@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Control and Intelligent Systems Lab</title>
+</head>
+
+
+<body class="bg-dark">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+    <div class="container">
+      <a href="#" class="navbar-brand">CIS Lab @KAIST</a>
+        <button 
+        class="navbar-toggler" 
+        type="button"
+        data-bs-toggle="collapse" 
+        data-bs-target="#navmenu">
+        <span class="navbar-toggler-icon"></span>
+      </button> 
+
+      
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="team.html" class="nav-link">People</a>
+          </li>
+          <li class="nav-item">
+            <a href="research.html" class="nav-link">Research</a>
+          </li>
+          <li class="nav-item">
+            <a href="publications.html" class="nav-link">Publications</a>
+          </li>
+          <li class="nav-item">
+            <a href="teaching.html" class="nav-link">Teaching</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a href="other.html" class="nav-link">Other</a>
+          </li> -->
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <section class="p-5 bg-light">
+    <div class="container p-5">
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                   <div class="col-3"><strong>2023 Spring</strong></div>
+                   <div class="col">EE202. Signals and Systems</div>
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                  </div>
+                </div>
+              </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                 <div class="col-3"><strong>2022 Fall</strong></div>
+                 <div class="col">EE688. Optimal Control Theory</div>
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <div class="container">
+                        <ul>
+                            <li class="my-1">Learn the theory and practice of optimal control, particularly focusing on optimization-based control.
+                                <ul>
+                                    <li> Fundamentals of model predictive control (MPC), stability and feasibility theory, reachability and invariant set theory
+                                    </li>
+                                    <li>
+                                        Dynamic programming, Calculus of Variations
+                                    </li>
+                                </ul>
+                                
+                                
+                            <li class="my-1">Reference: 
+                                <ol>
+                                    <li>F. Borrelli, A. Bemporad, M. Morari. Predictive Control for Linear and Hybrid Systems, Cambridge University Press, 2017.</li>
+                                    <li>J. B. Rawlings, D. Q. Mayne, M. M. Diehl. Model Predictive Control: Theory, Computation, and Design, 2nd Edition, Nob Hill Publishing LLC, 2017.</li>
+                                    <li>Daniel Liberzon, Calculus of Variations and Optimal Control Theory, Princeton University Press, 2012. </li>
+                                  </ol>
+                            </li>
+                            <li class="my-1">
+                                Class schedule
+                                <table class="table table-hover table-sm">
+                                    <thead>
+                                      <tr class="center">
+                                        <th scope="col">Week</th>
+                                        <th scope="col">Topics</th>
+                                        <th scope="col">Assignments</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <th scope="row">1</th>
+                                        <td>Introduction to optimal control</td>
+                                        <td> </td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">2</th>
+                                        <td>Review of state-space models</td>
+                                        <td></td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">3</th>
+                                        <td>Fundamentals of optimization</td>
+                                        <td></td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">4</th>
+                                        <td>LQR</td>
+                                        <td>HW 1</td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">5</th>
+                                        <td>Fundamentals of MPC</td>
+                                        <td></td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">6</th>
+                                        <td>Stability and feasibility</td>
+                                        <td></td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">7</th>
+                                        <td>Reachability and invariant set theory</td>
+                                        <td>HW 2</td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">8</th>
+                                        <td>Midterm exam</td>
+                                        <td></td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">9</th>
+                                        <td>Robust MPC</td>
+                                        <td></td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">10</th>
+                                        <td>Hamilton-Jacobi-Bellman equation</td>
+                                        <td></td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">11</th>
+                                        <td>Hamilton-Jacobi reachability</td>
+                                        <td>HW 3</td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">12</th>
+                                        <td>Calculus of variations</td>
+                                        <td></td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">13</th>
+                                        <td>Pontryagin's minimum principle</td>
+                                        <td></td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">14</th>
+                                        <td>Bang-bang control</td>
+                                        <td>HW 4</td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">15</th>
+                                        <td>Final project presentations</td>
+                                        <td></td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                            </li>
+                          </ul>
+                        
+                        
+                          <li class="my-1">Evalution: 5% Attendance + 35% Assignments + 20% Midterm + 40% Final project </li>
+                            
+    
+                    
+           
+                    </div>
+
+
+
+
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <div class="col-3"><strong>2022 Spring</strong></div>
+                    <div class="col">Design and Analysis of Predictive Control (at Seoul National University)</div>
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <div class="container">
+                        <ul>
+                            <li class="my-1">Learn the theory and practice of predictive control. Fundamentals of model predictive control (MPC), stability and feasibility theory, reachability and invariant set theory, safety verification, and variants of MPC formulations. </li>
+                            <li class="my-1">Reference: 
+                                <ol>
+                                    <li>F. Borrelli, A. Bemporad, M. Morari. Predictive Control for Linear and Hybrid Systems, Cambridge University Press, 2017.</li>
+                                    <li>J. B. Rawlings, D. Q. Mayne, M. M. Diehl. Model Predictive Control: Theory, Computation, and Design, 2nd Edition, Nob Hill Publishing LLC, 2017.</li>
+                                  </ol>
+                            </li>
+                            <li class="my-1">
+                                Class schedule
+                                <table class="table table-hover table-sm">
+                                    <thead>
+                                      <tr class="center">
+                                        <th scope="col">Week</th>
+                                        <th scope="col">Topics</th>
+                                        <th scope="col">Assignments</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <th scope="row">1</th>
+                                        <td>Introduction to model predictive control (MPC)</td>
+                                        <td> </td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">2</th>
+                                        <td>Review of state-space models</td>
+                                        <td></td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">3</th>
+                                        <td>Fundamentals of optimization</td>
+                                        <td>HW 1</td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">4</th>
+                                        <td>LQR</td>
+                                        <td></td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">5</th>
+                                        <td>Fundamentals of MPC</td>
+                                        <td>HW 2</td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">6</th>
+                                        <td>Reachability and invariant set theory</td>
+                                        <td></td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">7</th>
+                                        <td>Stability and feasibility</td>
+                                        <td></td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">8</th>
+                                        <td>Midterm exam</td>
+                                        <td>HW 3</td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">9</th>
+                                        <td>Robust & Stochastic MPC</td>
+                                        <td></td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">10</th>
+                                        <td>Explicit MPC</td>
+                                        <td></td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">11</th>
+                                        <td>Nonlinear MPC</td>
+                                        <td></td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">12</th>
+                                        <td>Hybrid MPC</td>
+                                        <td></td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">13</th>
+                                        <td>Learning-based MPC</td>
+                                        <td></td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">14</th>
+                                        <td>Safety verification</td>
+                                        <td></td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">15</th>
+                                        <td>Final project presentations</td>
+                                        <td></td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                            </li>
+                          </ul>
+                        
+                        
+                          <li class="my-1">Evalution: 5% Attendance + 15% Assignments + 30% Midterm + 50% Final project </li>
+                            
+    
+                    
+           
+                    </div>
+                    </div>
+              </div>
+            </div>      
+        </div>
+    </div>
+  </section>
+
+
+
+
+   <!-- Footer -->
+   <footer class="p-5 bg-dark text-white position-relative">
+    <div class="container">
+      <p>Copyright &copy; 2022 CIS Lab</p>
+      <a href="#" class="position-absolute bottom-0 end-0 p-5">
+        <i class="bi bi-arrow-up-circle h1"></i>
+      </a>
+    </div>
+
+   </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
